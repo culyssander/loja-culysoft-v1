@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import AdminLayout from './components/admin/admin-layout'
 import AdminConfig from './pages/admin/admin-config'
 import AdminDashboard from './pages/admin/admin-dashboard'
 import AdminPerfil from './pages/admin/admin-perfil'
@@ -26,17 +27,17 @@ function App() {
                     <Route path='registro' element={<Registro/>}/>
                 </Route>
 
-                <Route path='admin' >
+                <Route path='admin' element={<AdminLayout/>}>
                     <Route path='dashboard' element={<AdminDashboard/>}/>
                     <Route path='produtos' element={<AdminProdutos/>}/>
                     <Route path='vendas' element={<AdminVendas/>}/>
                     <Route path='usuarios' element={<AdminUsuarios/>}/>
                     <Route path='perfil' element={<AdminPerfil/>}/>
-                    <Route path='configuracao' element={<AdminConfig/>}/> 
+                    <Route path='configuracao' element={<AdminConfig/>}/>
                 </Route>
 
                 <Route path='shop'>
-                    <Route path='perfil' element={<ShoppingPerfil/>}/> 
+                    <Route path='perfil' element={<ShoppingPerfil/>}/>
                     <Route path='checkout' element={<ShoppingCheckout/>}/>
                     <Route path='compras' element={<ShoppingCompras/>}/>
                     <Route path='obrigado' element={<ShoppingObrigado/>}/>
