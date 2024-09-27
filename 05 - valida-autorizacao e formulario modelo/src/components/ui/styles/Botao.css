@@ -1,0 +1,16 @@
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.7);
+    padding: 2px 4px;
+}
+
+.botao:focus {
+    outline: none;
+}
