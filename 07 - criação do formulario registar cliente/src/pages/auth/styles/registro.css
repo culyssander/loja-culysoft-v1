@@ -1,0 +1,55 @@
+.registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: var(--branca);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    gap: 50px;
+    width: 800px;
+    height: 600px;
+}
+
+
+.registro-capa {
+    width: 37%;
+    height: 100%;
+    background: url(../../../img/background1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -120px;
+}
+
+.registro-form {
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.registro-form-info, .registro-rodape {
+    text-align: center;
+}
+
+.registro-form-info h2 {
+    margin-bottom: 10px;
+}
+
+.registro-rodape {
+    text-align: center;
+}
+
+
+.registro-rodape a, .registro-form-info a {
+    color: var(--preto2);
+    text-decoration: none;
+}
+
+.registro-rodape a:hover, .registro-form-info a:hover {
+    font-size: 1.1rem;
+}
