@@ -1,0 +1,1 @@
+export const API_URL = 'https://loja-culysoft-899ab20df15d.herokuapp.com/api/v1'

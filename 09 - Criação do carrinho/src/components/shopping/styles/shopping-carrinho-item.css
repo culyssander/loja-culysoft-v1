@@ -1,0 +1,47 @@
+.carrinho-item {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 15px;
+}
+
+.carrinho-item img {
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 20px;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: var(--preto1);
+}
+
+.informacao .titulo {
+    font-size: 1.28rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.informacao .quantidade {
+    display: flex;
+    margin: 10px;
+}
+
+.informacao .quantidade p {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.sinal {
+    cursor: pointer;
+}
+
+.remover {
+    margin-left: 15px;
+    cursor: pointer;
+}

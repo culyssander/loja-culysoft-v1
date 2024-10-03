@@ -1,0 +1,60 @@
+.carrinho-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.3s ease;
+    z-index: 99;
+    height: 100vh;
+}
+
+.area-carrinho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.area-carrinho {
+    background: rgba(49, 49, 49, 0.4);
+}
+
+.carrinho-conteudo {
+    height: 100vh;
+    background: var(--branca);
+    min-width: 440px;
+    overflow: scroll;
+    z-index: 200;
+    padding: 20px;
+}
+
+.carrinho-titulo, .carrinho-total {
+    font-size: 1.55rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--azul);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+}
+
+.carrinho-total {
+    text-align: start;
+}
+
+.carrinho-botao-checkout {
+    background-color: var(--azul);
+    color: var(--branca);
+    width: 100%;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    position: sticky;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 50px;
+}

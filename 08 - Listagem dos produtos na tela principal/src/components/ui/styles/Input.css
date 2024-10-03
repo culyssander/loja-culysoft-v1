@@ -1,0 +1,15 @@
+.input {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    font-style: normal;
+}
+
+.input::placeholder {
+    font-size: 1.1rem;
+}
+
+.input:focus {
+    outline: none;
+}

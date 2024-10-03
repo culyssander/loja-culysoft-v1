@@ -1,0 +1,7 @@
+.shopping-home {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 40px 0 40px 40px;
+    transition: all 0.3s ease;
+}

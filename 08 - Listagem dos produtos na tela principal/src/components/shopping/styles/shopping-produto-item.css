@@ -1,0 +1,62 @@
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagem .customizado {
+    background: var(--azul);
+    border: none;
+    color: var(--branca);
+    position: absolute;
+    width: 290px;
+    border-radius: 20px;
+    margin-top: 290px;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.imagem:hover .customizado {
+    opacity: 1;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1rem;
+    padding-left: 10px;
+    color: var(--preto1);
+}
+
+.descricao {
+    width: 300px;
+    color: var(--preto2);
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
